@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/*
+ * Colors, radii and fonts come from the MUI theme as CSS variables
+ * (--mui-palette-*, --mui-shape-borderRadius) and --font-sans set in main.tsx.
+ * No raw values here: change src/theme/tokens.ts instead.
+ */
+
+html,
+body,
+#root,
+.maplibregl-map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Origin / destination pins */
+.endpoint-marker {
+  height: 26px;
+  padding: 0 11px;
+  border-radius: 999px;
+  background: var(--mui-palette-secondary-main);
+  color: var(--mui-palette-primary-contrastText);
+  border: 2.5px solid var(--mui-palette-map-casing);
+  box-shadow: var(--shadow-pin);
+  display: grid;
+  place-items: center;
+  font: 800 11px/1 var(--font-sans);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Checkpoint popup */
+.maplibregl-popup-content {
+  border-radius: var(--mui-shape-borderRadius);
+  padding: 12px 14px;
+  box-shadow: var(--shadow-popup);
+  border: 1px solid var(--mui-palette-divider);
+}
+.cp-popup {
+  font: 13px/1.45 var(--font-sans);
+  color: var(--mui-palette-text-primary);
+  min-width: 210px;
+}
+.cp-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-weight: 700;
+}
+.cp-chip {
+  color: var(--mui-palette-common-white);
+  border-radius: 999px;
+  padding: 2px 9px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-shadow: var(--shadow-chip-text);
+}
+.cp-eta {
+  color: var(--mui-palette-text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px 0 8px;
+}
+.cp-popup table {
+  border-collapse: collapse;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+.cp-popup td {
+  padding: 2px 0;
+  font-weight: 600;
+}
+.cp-popup td:first-child {
+  color: var(--mui-palette-text-secondary);
+  width: 52px;
+  font-weight: 500;
+}
+.cp-muted {
+  color: var(--mui-palette-text-secondary);
+  font-weight: 400;
+}
+.cp-reason {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--mui-palette-divider);
+  font-weight: 600;
+  font-size: 12px;
+}
