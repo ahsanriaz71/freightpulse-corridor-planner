@@ -1,5 +1,6 @@
-# Route Planner: weather-aware truck routing
+# FreightPulse — Weather-Aware Truck Corridor Planner
 
+**Repository:** `https://github.com/ahsanriaz71/freightpulse-corridor-planner`
 **Live app:** _link to be added_
 **Walkthrough (Loom):** _link to be added_
 

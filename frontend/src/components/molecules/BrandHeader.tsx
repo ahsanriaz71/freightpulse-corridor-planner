@@ -55,7 +55,7 @@ export function BrandHeader({ isLoading = false }: BrandHeaderProps) {
         </Box>
         <Box>
           <Typography variant="h1" sx={{ color: 'inherit', fontSize: '1.15rem', lineHeight: 1.2 }}>
-            Route Planner
+            FreightPulse Corridor Planner
           </Typography>
           <Typography
             variant="body2"
