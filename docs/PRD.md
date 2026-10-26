@@ -2,8 +2,10 @@
 
 **Project:** Weather-Aware Truck Routing (`freightpulse-corridor-planner`)
 **Live URL:** https://freightpulse-corridor-planner.vercel.app
+**Walkthrough (Part 1 — Live Demo):** https://www.loom.com/share/82020a6ba3a144daba0b483834d51302
+**Walkthrough (Part 2 — Code & Architecture):** https://www.loom.com/share/a5ad0e8498714d508a9380987c02b861
 **Stack:** React + MUI (frontend), Django + DRF (backend), one Vercel project
-**Status:** Built and deployed; walkthrough video and screenshot pending (see [task.md](task.md))
+**Status:** Built, deployed, and walkthrough videos completed
 **Last updated:** 2026-10-26, reconciled with the code
 
 This document started as the requirements and now also records what was built. Where the build differs from the original plan, the text says so. Work that was planned or considered but not built is collected in section 15, Future scope.
