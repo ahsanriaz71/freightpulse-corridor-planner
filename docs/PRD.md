@@ -1,9 +1,10 @@
-# Product Requirements Document: Route Planner
+# Product Requirements Document: FreightPulse Corridor Planner
 
-**Project:** Weather-Aware Truck Routing (`route-planner`)
+**Project:** Weather-Aware Truck Routing (`freightpulse-corridor-planner`)
+**Live URL:** https://freightpulse-corridor-planner.vercel.app
 **Stack:** React + MUI (frontend), Django + DRF (backend), one Vercel project
 **Status:** Built and deployed; walkthrough video and screenshot pending (see [task.md](task.md))
-**Last updated:** 2026-10-23, reconciled with the code
+**Last updated:** 2026-10-26, reconciled with the code
 
 This document started as the requirements and now also records what was built. Where the build differs from the original plan, the text says so. Work that was planned or considered but not built is collected in section 15, Future scope.
 

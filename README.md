@@ -1,7 +1,7 @@
 # FreightPulse — Weather-Aware Truck Corridor Planner
 
-**Repository:** `https://github.com/ahsanriaz71/freightpulse-corridor-planner`
-**Live app:** _link to be added_
+**Repository:** https://github.com/ahsanriaz71/freightpulse-corridor-planner
+**Live app:** https://freightpulse-corridor-planner.vercel.app
 **Walkthrough (Loom):** _link to be added_
 
 Enter an origin, a destination, a departure time and the load weight. The app returns three truck routes from TomTom, places a checkpoint every 10, 25 or 50 miles, works out when the truck will reach each one, looks up the Open-Meteo forecast for that hour, scores every checkpoint with the wind, rain, snow and load rules from the brief, and recommends the safest route while keeping travel time in view. A heatmap with a 0 to 48 hour slider shows how risk along the whole corridor changes over the next two days.
